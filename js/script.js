@@ -16,11 +16,13 @@ const cats = [
 // Question 01
 console.log("\nQuestion 01:")
 
-function cat(complain){
-    console.log(complain);
+const cat = {
+    complain: function(){
+        console.log("Meow!");
+    }
 }
 
-cat("Meow!");
+cat.complain();
 
 
 // Question 02
