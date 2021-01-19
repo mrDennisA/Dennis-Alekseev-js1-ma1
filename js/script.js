@@ -41,6 +41,7 @@ console.log("\nQuestion 04:")
 
 heading.classList = "subheading";
 
+
 // Question 05
 console.log("\nQuestion 05:")
 
@@ -75,6 +76,7 @@ function animalsList(list){
 
 animalsList(cats);
 
+
 // Question 08
 console.log("\nQuestion 08:")
 
@@ -98,6 +100,6 @@ function createCats(cats){
 }
 
 const updateHTML = createCats(cats)
-
 const catContainer = document.querySelector(".cat-container")
+
 catContainer.innerHTML = updateHTML;
